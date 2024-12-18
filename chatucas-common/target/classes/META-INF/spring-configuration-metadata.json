@@ -1,0 +1,119 @@
+{
+  "groups": [
+    {
+      "name": "ucas.alioss",
+      "type": "com.ucas.properties.AliOssProperties",
+      "sourceType": "com.ucas.properties.AliOssProperties"
+    },
+    {
+      "name": "ucas.jwt",
+      "type": "com.ucas.properties.JwtProperties",
+      "sourceType": "com.ucas.properties.JwtProperties"
+    },
+    {
+      "name": "ucas.wechat",
+      "type": "com.ucas.properties.WeChatProperties",
+      "sourceType": "com.ucas.properties.WeChatProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ucas.alioss.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.ucas.properties.AliOssProperties"
+    },
+    {
+      "name": "ucas.alioss.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.ucas.properties.AliOssProperties"
+    },
+    {
+      "name": "ucas.alioss.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.ucas.properties.AliOssProperties"
+    },
+    {
+      "name": "ucas.alioss.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.ucas.properties.AliOssProperties"
+    },
+    {
+      "name": "ucas.jwt.admin-secret-key",
+      "type": "java.lang.String",
+      "description": "管理端员工生成jwt令牌相关配置",
+      "sourceType": "com.ucas.properties.JwtProperties"
+    },
+    {
+      "name": "ucas.jwt.admin-token-name",
+      "type": "java.lang.String",
+      "sourceType": "com.ucas.properties.JwtProperties"
+    },
+    {
+      "name": "ucas.jwt.admin-ttl",
+      "type": "java.lang.Long",
+      "sourceType": "com.ucas.properties.JwtProperties"
+    },
+    {
+      "name": "ucas.jwt.user-secret-key",
+      "type": "java.lang.String",
+      "description": "用户端微信用户生成jwt令牌相关配置",
+      "sourceType": "com.ucas.properties.JwtProperties"
+    },
+    {
+      "name": "ucas.jwt.user-token-name",
+      "type": "java.lang.String",
+      "sourceType": "com.ucas.properties.JwtProperties"
+    },
+    {
+      "name": "ucas.jwt.user-ttl",
+      "type": "java.lang.Long",
+      "sourceType": "com.ucas.properties.JwtProperties"
+    },
+    {
+      "name": "ucas.wechat.api-v3-key",
+      "type": "java.lang.String",
+      "sourceType": "com.ucas.properties.WeChatProperties"
+    },
+    {
+      "name": "ucas.wechat.appid",
+      "type": "java.lang.String",
+      "sourceType": "com.ucas.properties.WeChatProperties"
+    },
+    {
+      "name": "ucas.wechat.mch-serial-no",
+      "type": "java.lang.String",
+      "sourceType": "com.ucas.properties.WeChatProperties"
+    },
+    {
+      "name": "ucas.wechat.mchid",
+      "type": "java.lang.String",
+      "sourceType": "com.ucas.properties.WeChatProperties"
+    },
+    {
+      "name": "ucas.wechat.notify-url",
+      "type": "java.lang.String",
+      "sourceType": "com.ucas.properties.WeChatProperties"
+    },
+    {
+      "name": "ucas.wechat.private-key-file-path",
+      "type": "java.lang.String",
+      "sourceType": "com.ucas.properties.WeChatProperties"
+    },
+    {
+      "name": "ucas.wechat.refund-notify-url",
+      "type": "java.lang.String",
+      "sourceType": "com.ucas.properties.WeChatProperties"
+    },
+    {
+      "name": "ucas.wechat.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.ucas.properties.WeChatProperties"
+    },
+    {
+      "name": "ucas.wechat.we-chat-pay-cert-file-path",
+      "type": "java.lang.String",
+      "sourceType": "com.ucas.properties.WeChatProperties"
+    }
+  ],
+  "hints": []
+}
