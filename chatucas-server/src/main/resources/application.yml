@@ -54,8 +54,5 @@ ucas:
     admin-token-name: token
 
   alioss:
-    endpoint: ${ucas.alioss.endpoint}
-    access-key-id: ${ucas.alioss.access-key-id}
-    access-key-secret: ${ucas.alioss.access-key-secret}
-    bucket-name: ${ucas.alioss.bucket-name}
+
 
